@@ -1,0 +1,6 @@
+Options -MultiViews
+
+RewriteEngine On
+RewriteBase /
+RewriteRule ^genres/?$ genres.php [L]
+RewriteRule ^picture/?$ picture.php [L,QSA]
